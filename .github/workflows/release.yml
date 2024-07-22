@@ -1,6 +1,6 @@
 name: Release
 
-on:
+on: pull_request
   push:
     tags:
       - 'v*.*.*'
